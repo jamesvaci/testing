@@ -17,37 +17,37 @@
     public function getcategoriesseperate($type)
     {
       if ($type == 'kitchens') {
-        $this->db->query('SELECT subcategory FROM bane_db.bane_category WHERE name="Kitchens"');
+        $this->db->query("SELECT subcategory FROM bane_db.bane_category WHERE name='Kitchens'");
       }elseif ($type == 'modernkitchens') {
-        $this->db->query('SELECT subcategory->"$.Modern_Kitchens" FROM bane_db.bane_category WHERE name="Kitchens"');
+        $this->db->query("SELECT subcategory->'$.Modern_Kitchens' FROM bane_db.bane_category WHERE name='Kitchens'");
       }elseif ($type == 'rustickitchens') {
-        $this->db->query('SELECT subcategory->"$.Rustic_Kitchens" FROM bane_db.bane_category WHERE name="Kitchens"');
+        $this->db->query("SELECT subcategory->'$.Rustic_Kitchens' FROM bane_db.bane_category WHERE name='Kitchens'");
       }elseif ($type == 'classickitchens') {
-        $this->db->query('SELECT subcategory->"$.Classic_Kitchens" FROM bane_db.bane_category WHERE name="Kitchens"');
+        $this->db->query("SELECT subcategory->'$.Classic_Kitchens' FROM bane_db.bane_category WHERE name='Kitchens'");
       }elseif ($type == 'ceramic_floor') {
-        $this->db->query('SELECT subcategory->"$.Ceramic_floor" FROM bane_db.bane_category WHERE name="AquaHome_Equipment_for_Bathrooms"');
+        $this->db->query("SELECT subcategory->'$.Ceramic_floor' FROM bane_db.bane_category WHERE name='AquaHome_Equipment_for_Bathrooms'");
       }elseif ($type == 'fittings') {
-        $this->db->query('SELECT subcategory->"$.Fittings" FROM bane_db.bane_category WHERE name="AquaHome_Equipment_for_Bathrooms"');
+        $this->db->query("SELECT subcategory->'$.Fittings' FROM bane_db.bane_category WHERE name='AquaHome_Equipment_for_Bathrooms'");
       }elseif ($type == 'aquastil') {
-        $this->db->query('SELECT subcategory->"$.AquaStil" FROM bane_db.bane_category WHERE name="AquaHome_Equipment_for_Bathrooms"');
+        $this->db->query("SELECT subcategory->'$.AquaStil' FROM bane_db.bane_category WHERE name='AquaHome_Equipment_for_Bathrooms'");
       }elseif ($type == 'haberdashery') {
-        $this->db->query('SELECT subcategory->"$.Haberdashery" FROM bane_db.bane_category WHERE name="AquaHome_Equipment_for_Bathrooms"');
+        $this->db->query("SELECT subcategory->'$.Haberdashery' FROM bane_db.bane_category WHERE name='AquaHome_Equipment_for_Bathrooms'");
       }elseif ($type == 'huppe') {
-        $this->db->query('SELECT subcategory->"$.HUPPE" FROM bane_db.bane_category WHERE name="AquaHome_Equipment_for_Bathrooms"');
+        $this->db->query("SELECT subcategory->'$.HUPPE' FROM bane_db.bane_category WHERE name='AquaHome_Equipment_for_Bathrooms'");
       }elseif ($type == 'bathroom_equipment') {
-        $this->db->query('SELECT subcategory->"$.Bathroom_Equipment" FROM bane_db.bane_category WHERE name="AquaHome_Equipment_for_Bathrooms"');
+        $this->db->query("SELECT subcategory->'$.Bathroom_Equipment' FROM bane_db.bane_category WHERE name='AquaHome_Equipment_for_Bathrooms'");
       }elseif ($type == 'lg_solid_surface') {
-        $this->db->query('SELECT subcategory FROM bane_db.bane_category WHERE name="LG_Solid_Surface"');
+        $this->db->query("SELECT subcategory FROM bane_db.bane_category WHERE name='LG_Solid_Surface'");
       }elseif ($type == 'lumino_solid_surface') {
-        $this->db->query('SELECT subcategory FROM bane_db.bane_category WHERE name="Lumino_Solid_Surface"');
+        $this->db->query("SELECT subcategory FROM bane_db.bane_category WHERE name='Lumino_Solid_Surface'");
       }elseif ($type == 'doors') {
-        $this->db->query('SELECT subcategory FROM bane_db.bane_category WHERE name="Doors"');
+        $this->db->query("SELECT subcategory FROM bane_db.bane_category WHERE name='Doors'");
       }elseif ($type == 'aquahome_equipment_for_bathrooms') {
-        $this->db->query('SELECT subcategory FROM bane_db.bane_category WHERE name="AquaHome_Equipment_for_Bathrooms"');
+        $this->db->query("SELECT subcategory FROM bane_db.bane_category WHERE name='AquaHome_Equipment_for_Bathrooms'");
       }elseif ($type == 'interiors') {
-        $this->db->query('SELECT subcategory FROM bane_db.bane_category WHERE name="Interiors"');
+        $this->db->query("SELECT subcategory FROM bane_db.bane_category WHERE name='Interiors'");
       }else{
-        $this->db->query('SELECT subcategory FROM bane_db.bane_category WHERE name="Bathroom_Furniture"');
+        $this->db->query("SELECT subcategory FROM bane_db.bane_category WHERE name='Bathroom_Furniture'");
       }
       return $this->db->resultSet();
     }
