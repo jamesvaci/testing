@@ -1,0 +1,420 @@
+
+@font-face {
+  font-family: "gilroy-regularuploaded_file";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gilroy-regular-webfont.eot?") format("eot"), url("../fonts/gilroy-regular-webfont.woff2") format("woff2"), url("../fonts/gilroy-regular-webfont.woff") format("woff"), url("../fonts/gilroy-regular-webfont.ttf") format("truetype"), url("../fonts/gilroy-regular-webfont.svg#gilroy-regularuploaded_file") format("svg");
+}
+@font-face {
+  font-family: "gilroy-bolduploaded_file";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gilroy-bold-webfont.eot?") format("eot"), url("../fonts/gilroy-bold-webfont.woff2") format("woff2"), url("../fonts/gilroy-bold-webfont.woff") format("woff"), url("../fonts/gilroy-bold-webfont.ttf") format("truetype"), url("../fonts/gilroy-bold-webfont.svg#gilroy-bolduploaded_file") format("svg");
+}
+@font-face {
+  font-family: "gilroy-semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Gilroy-SemiBold.eot?") format("eot"), url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.ttf") format("truetype"), url("../fonts/Gilroy-SemiBold.svg#gilroy-semibold") format("svg");
+}
+@font-face {
+  font-family: "gilroy-extrabolduploaded_file";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gilroy-extrabold-webfont.eot?") format("eot"), url("../fonts/gilroy-extrabold-webfont.woff2") format("woff2"), url("../fonts/gilroy-extrabold-webfont.woff") format("woff"), url("../fonts/gilroy-extrabold-webfont.ttf") format("truetype"), url("../fonts/gilroy-extrabold-webfont.svg#gilroy-extrabolduploaded_file") format("svg");
+}
+@font-face {
+  font-family: "gilroy-mediumuploaded_file";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gilroy-medium-webfont.eot?") format("eot"), url("../fonts/gilroy-medium-webfont.woff2") format("woff2"), url("../fonts/gilroy-medium-webfont.woff") format("woff"), url("../fonts/gilroy-medium-webfont.ttf") format("truetype"), url("../fonts/gilroy-medium-webfont.svg#gilroy-mediumuploaded_file") format("svg");
+}
+@font-face {
+  font-family: "gilroy-lightuploaded_file";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gilroy-light-webfont.eot?") format("eot"), url("../fonts/gilroy-light-webfont.woff2") format("woff2"), url("../fonts/gilroy-light-webfont.woff") format("woff"), url("../fonts/gilroy-light-webfont.ttf") format("truetype"), url("../fonts/gilroy-light-webfont.svg#gilroy-lightuploaded_file") format("svg");
+}
+@font-face {
+  font-family: "Pristina";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Pristina-Regular.eot?") format("eot"), url("../fonts/Pristina-Regular.woff2") format("woff2"), url("../fonts/Pristina-Regular.woff") format("woff"), url("../fonts/Pristina-Regular.ttf") format("truetype"), url("../fonts/Pristina-Regular.svg#Pristina") format("svg");
+}
+@font-face {
+  font-family: "Myriad Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadPro-Regular.eot?") format("eot"), url("../fonts/MyriadPro-Regular.woff2") format("woff2"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg#Myriad_Pro") format("svg");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato-Regular.eot?") format("eot"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.svg#Lato") format("svg");
+}
+@font-face {
+  font-family: "Nunito-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Nunito-Regular.eot?") format("eot"), url("../fonts/Nunito-Regular.woff2") format("woff2"), url("../fonts/Nunito-Regular.woff") format("woff"), url("../fonts/Nunito-Regular.ttf") format("truetype"), url("../fonts/Nunito-Regular.svg#Nunito-Regular") format("svg");
+}
+@font-face {
+  font-family: "Nunito-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Nunito-SemiBold.eot?") format("eot"), url("../fonts/Nunito-SemiBold.woff2") format("woff2"), url("../fonts/Nunito-SemiBold.woff") format("woff"), url("../fonts/Nunito-SemiBold.ttf") format("truetype"), url("../fonts/Nunito-SemiBold.svg#Nunito-SemiBold") format("svg");
+}
+@font-face {
+  font-family: "Nunito-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Nunito-Bold.eot?") format("eot"), url("../fonts/Nunito-Bold.woff2") format("woff2"), url("../fonts/Nunito-Bold.woff") format("woff"), url("../fonts/Nunito-Bold.ttf") format("truetype"), url("../fonts/Nunito-Bold.svg#Nunito-Bold") format("svg");
+}
+@font-face {
+  font-family: "Nunito-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Nunito-Black.eot?") format("eot"), url("../fonts/Nunito-Black.woff2") format("woff2"), url("../fonts/Nunito-Black.woff") format("woff"), url("../fonts/Nunito-Black.ttf") format("truetype"), url("../fonts/Nunito-Black.svg#Nunito-Black") format("svg");
+}
+@font-face {
+  font-family: "Nunito-ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Nunito-ExtraBold.eot?") format("eot"), url("../fonts/Nunito-ExtraBold.woff2") format("woff2"), url("../fonts/Nunito-ExtraBold.woff") format("woff"), url("../fonts/Nunito-ExtraBold.ttf") format("truetype"), url("../fonts/Nunito-ExtraBold.svg#Nunito-ExtraBold") format("svg");
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald-Regular.eot?") format("eot"), url("../fonts/Oswald-Regular.woff2") format("woff2"), url("../fonts/Oswald-Regular.woff") format("woff"), url("../fonts/Oswald-Regular.ttf") format("truetype"), url("../fonts/Oswald-Regular.svg#Oswald-Regular") format("svg");
+}
+@font-face {
+  font-family: "Oswald-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald-SemiBold.eot?") format("eot"), url("../fonts/Oswald-SemiBold.woff2") format("woff2"), url("../fonts/Oswald-SemiBold.woff") format("woff"), url("../fonts/Oswald-SemiBold.ttf") format("truetype"), url("../fonts/Oswald-SemiBold.svg#Oswald-SemiBold") format("svg");
+}
+@font-face {
+  font-family: "Oswald-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Oswald-Bold.eot?") format("eot"), url("../fonts/Oswald-Bold.woff2") format("woff2"), url("../fonts/Oswald-Bold.woff") format("woff"), url("../fonts/Oswald-Bold.ttf") format("truetype"), url("../fonts/Oswald-Bold.svg#Oswald-Bold") format("svg");
+}
+@font-face {
+  font-family: "ProstoOne-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProstoOne-Regular.eot?") format("eot"), url("../fonts/ProstoOne-Regular.woff2") format("woff2"), url("../fonts/ProstoOne-Regular.woff") format("woff"), url("../fonts/ProstoOne-Regular.ttf") format("truetype"), url("../fonts/ProstoOne-Regular.svg#ProstoOne-Regular") format("svg");
+}
+@font-face {
+  font-family: "Gotham-Book-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProstoOne-Regular.eot?") format("eot"), url("../fonts/ProstoOne-Regular.woff2") format("woff2"), url("../fonts/ProstoOne-Regular.woff") format("woff"), url("../fonts/ProstoOne-Regular.ttf") format("truetype"), url("../fonts/ProstoOne-Regular.svg#Gotham-Book-Regular") format("svg");
+}
+
+body{
+  font-family: Nunito-regular;
+}
+
+#langBar{
+  background: rgba(0,0,0,0)!important;
+  border: none;
+}
+
+#langBar img{
+  margin-left: 16px;
+}
+.nav-item{
+  padding:20px 10px;
+}
+
+.registerButton{
+    width: 100%;
+}
+
+.registerModal{
+    margin: 100px 0;
+}
+
+.header-logo{
+  height: 38px;
+}
+
+.qaPage{
+  padding: 50px 0;
+}
+
+.qaPage button, .qaPage a{
+  width: 100%;
+}
+
+.answer{
+  border-left: 2px solid #4286f4;
+  padding-left: 10px;
+}
+
+.qaBox{
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  transition:  all 0.5s;
+}
+
+.qaBox:hover{
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.75);
+}
+.full_img{
+  width: 100%;
+}
+
+.landing-pic{
+  width: 100%;
+  opacity: 0.65;
+}
+
+.nav-link:hover{
+  /* border-bottom: 2px solid #0091C9; */
+}
+
+.container__how, .container__companies{
+  background: #f3f8f9;
+}
+
+.container__how .row, .container__companies .row{
+  padding: 40px 0;
+  justify-content: center;
+  text-align: center;
+}
+.container__companies .row{
+  align-items: center;
+}
+.container__how .col-xs-12:first-child, .container__how .col-xs-12:nth-child(2){
+  border-right: 1px solid rgba(0,0,0,0.3);
+}
+
+.container__how i{
+  padding: 20px 0;
+  font-size: 50px;
+}
+
+.container__how h5{
+  line-height: 40px;
+}
+
+.container__how h4{
+  font-weight: bold;
+}
+
+.container__references{
+  padding: 80px 0;
+}
+
+.container__references .row:first-child{
+  padding: 80px 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.container__references i{
+  padding: 20px;
+}
+
+.container__catalog{
+  padding: 150px 0;
+}
+.container__catalog img{
+  padding: 20px 0;
+  width:100%;
+}
+
+.container__catalog button{
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+}
+
+.container__more{
+  padding: 80px 0;
+}
+
+.container__more .row:first-child{
+  justify-content: center;
+}
+
+.container__more button{
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+}
+
+.lang-circle{
+  height: 20px;
+}
+
+.dropdown-toggle{
+  /* background: white; */
+}
+
+.show li{
+  text-decoration: none;
+  padding: 5px;
+}
+.show li:hover{
+  text-decoration: none;
+  background: rgba(0,0,0,0.2);
+}
+
+.container__heading button{
+  width: 100%;
+  padding: 10px 0;
+  color: white;
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+}
+
+.container__heading button:hover{
+  box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.7);
+}
+
+.userDrop .dropdown-menu{
+  padding: 15px;
+  width: 280px;
+}
+
+.form_sign_register{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container__heading{
+    position: absolute;
+    top: 330px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container__heading{
+    position: absolute;
+    top: 300px;
+  }
+}
+/* linear-gradient(135deg, rgba(30,87,153,0.8) 0%,rgba(30,88,154,1) 1%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 100%); */
+@media only screen and (max-width: 992px) {
+  .container__heading{
+    position: absolute;
+    top: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .nav-pills{
+    display: flex;
+    flex-direction: row;
+  }
+  .container__heading{
+    position: absolute;
+    top: 150px;
+  }
+  .container__heading h1{
+    font-size: 1.5rem;
+  }
+  
+  .container__how .col-xs-12:first-child, .container__how .col-xs-12:nth-child(2){
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border-right: none;
+  }
+}
+
+@media only screen and (max-width: 576px) { 
+  .container__heading{
+    position: absolute;
+    top: 100px;
+  }
+  .container__heading h1{
+    font-size: 1.5rem;
+  }
+  
+  .container__how .col-xs-12:first-child, .container__how .col-xs-12:nth-child(2){
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border-right: none;
+  }
+}
+
+
+@media only screen and (max-width: 320px) { 
+  .nav-pills{
+    display: flex;
+    flex-direction: column;
+  }
+  .container__heading{
+    position: absolute;
+    top: 80px;
+  }
+  .container__heading h1{
+    font-size: 1.5rem;
+  }
+  
+  .container__how .col-xs-12:first-child, .container__how .col-xs-12:nth-child(2){
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border-right: none;
+  }
+}
+
+.imageBox{
+  margin-top:25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imageBox a{
+  text-decoration: none;
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  padding-top: 60px;
+  background: rgba(255,255,255,0.5);
+  width: 100%;
+  transition: opacity 0.6s  ease;
+  color: #6b6b6b;
+  font-weight: bolder;
+}
+
+.imageBox a:hover{
+  opacity: 1;
+}
+
+.container h1:first-child{
+  margin-top: 50px;
+}
+
+.col-md-4 .img-fluid{
+  margin-top: 70px;
+}
+
+.categoryTumb{
+  width: 100%;
+}
+
+.circleNews{
+  display: block;
+  background-color: #4286f4;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%
+}
+
+.divNews{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
